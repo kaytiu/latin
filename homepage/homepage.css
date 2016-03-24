@@ -1,0 +1,35 @@
+* {margin: 0;padding: 0;list-style: none;font-family: Helvetica, Arial, sans-serif;outline: none;}
+ul{margin: 0px;padding: 0px;}
+.module-create-options li {position: relative;text-align: left;display: table;}
+.module-create-title {font-size: 12px;background-color: #e4e4e4;display: table-cell;vertical-align: middle;height: 100%;max-width: 200px;min-width: 180px;text-align: right;color: #1d1d1b;padding: 15px;border-top: 1px solid #fafafa;border-bottom: 1px solid #c7c7c7;border-right: 1px solid #d5d5d5;}
+.module-create-option {display: table-cell;width: 100%;vertical-align: middle;max-width: 200px;color: #1d1d1b;padding: 10px 15px;border-bottom: 1px solid #e4e4e4;border-top: 1px solid white;}
+
+#hp-nav{width: 160px;height: 100%;position: absolute;padding-top:122px;top: 0px;left: 50px;z-index: 1;transition: all 0.3s;}
+[ng-view]{margin-left: 220px;height: 100%;}
+.page-header{padding-left: 0px;z-index: 20;}
+    
+.panel-body{padding: 0px;min-height: 80px;}
+.panel-default{border: 0px;background-color: #f7f7f7;}
+.panel-group{margin: 0px;}
+.panel-default .panel-heading{color: #fff;}
+.m-accordion .panel-heading{background-color: #51617A;border-top: 0px;border-bottom: 1px solid #3d495b;border-radius: 0px;}
+.mitem-accordion .panel-heading{background-color: #138e7d;border-bottom: 1px solid #0f7561;}
+.panel-title a{display: inline-block;}
+.panel-title >.title{width: 80%;}
+.panel-title >.action{text-align: right; float: right;}
+.btn.green {border: none;text-shadow: none;color: white;background: #27ae60;}
+.item-action{overflow: hidden;text-align: right;padding: 20px 0px;}
+.layouts{background-color: #575757;height: 100%;}
+.layouts li{background-color: #51617A;border-top: 0px;border-bottom: 1px solid #464646;color: #f4f4f4;border-radius: 0px;background-color:#575757;text-align: center;}
+.layouts li a{color: #f4f4f4;padding: 12px 20px;display: inline-block;width: 100%;height: 100%;}
+.img-select .delete{position: absolute;width: 15px;top:10px;padding: 0px;color: #fff;}
+
+.module-create-option {display: table-cell;width: 100%;vertical-align: middle;max-width: 200px;color: #1d1d1b;padding: 10px 15px;border-bottom: 1px solid #e4e4e4;border-top: 1px solid white;}
+.switch-candy {background-color: #777 !important;}
+.switch-2 {color: white !important;}
+.switch-candy input:first-child + label, .switch-candy.switch-2 label {border: none;}
+.switch-candy.switch-2 label {transition: all 0.2s;}
+.switch-toggle label {display: block;padding: 0 15px;white-space: nowrap;cursor: pointer;}
+#column-left + #content {margin-left: 50px;}
+#column-left.active + #content{margin-left: 235px;}
+#column-left.active + #content #hp-nav{left: 235px;}
