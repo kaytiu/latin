@@ -3,7 +3,7 @@
 # 
 # checkoutv2.js  angularjs 初次使用
 	angularjs service,
-content_homepage.js 
+# content_homepage.js 
 	相关技术点： 页面按需加载
 
 # attribute 
